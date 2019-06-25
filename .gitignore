@@ -1,0 +1,8 @@
+/.bundle/
+/pkg/
+/tmp/
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log
