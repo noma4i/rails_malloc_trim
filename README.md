@@ -1,6 +1,6 @@
 # RailsMallocTrim
 
-Drop-in replacement library for RAILS app to save some memory.
+Drop-in library for RAILS app to save some memory.
 
 Gem will call `malloc_trim` after every GC run. This gem solves the problem with the minimum possible effort.
 It will check if `malloc_trim` is available and then enables trimming along with loading your Rails app
