@@ -10,7 +10,7 @@ It will check if `malloc_trim` is available and then enables trimming along with
 Just put it in your Gemfile:
 
 ```ruby
-  gem 'rails_malloc_trim', git: 'https://github.com/noma4i/rails_malloc_trim' 
+  gem 'rails_malloc_trim', '~> 0.2'
 ```
 
 Done!
